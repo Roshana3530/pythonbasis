@@ -5,4 +5,5 @@ write a program if a number is a multiple of  7 or not.
 
 
 
-if__name__=="__main__":
+tuples que
+write a program to ask user to enter names of their 3 favourite movies and store them in a list

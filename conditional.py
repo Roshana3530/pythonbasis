@@ -72,7 +72,7 @@ else:
 
 x=int(input("enter your number:"))
 if x%7 == 0:
-    print("multiple of 7")
+     print("multiple of 7")
 else:
     print("not multiple")
 
