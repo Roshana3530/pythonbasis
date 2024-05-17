@@ -45,3 +45,21 @@ info={
 }
 null_dict={}
 print(null_dict)
+
+
+          #nested condition
+student={
+    "name":"roshana",
+    "students" :{
+        "phy" :70,
+        "chem" :79,
+        "math" :90
+    }
+}
+print(student)
+print(student["students"])
+print(student["students"]["phy"])
+print(type("student"))
+print(len(student))       # values of keys output dinxa
+print(list(student.keys()))     # keys kun kun ho vanera output auxa
+
