@@ -63,3 +63,30 @@ tup=["c","d","a","a","b","b","a"]
 print(tup.count("a"))
 print(tup.sort())
 print(tup)
+
+
+
+
+dict= {
+      "table":("a piece of furniture","list of facts and figures"),
+      "cat":("a small animal"),
+
+}
+print(dict)
+
+
+
+subject ={
+    "python","java","c","c++","javascript","java","c","javascript"
+}
+print(subject)
+print(len(subject))
+
+marks={}
+x=int(input("enter phy:"))
+marks.update({"phy":x})
+y=int(input("enter chem:"))
+marks.update({"chem":y})
+a=int(input("enter math:"))
+marks.update({"math":a})
+print(marks)

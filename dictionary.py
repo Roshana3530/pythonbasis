@@ -61,5 +61,8 @@ print(student["students"])
 print(student["students"]["phy"])
 print(type("student"))
 print(len(student))       # values of keys output dinxa
-print(list(student.keys()))     # keys kun kun ho vanera output auxa
+print(list(student.keys()))  # keys kun kun ho vanera output auxa
+print(student.values())
+print(list(student.values()))   #list ma values aauxa
+print(student.items())
 
